@@ -17,12 +17,8 @@
 		0DF5FE131C53CF7E00DF144D /* images.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0DF5FE0E1C53CF7E00DF144D /* images.jpg */; };
 		0DF5FE141C53CF7E00DF144D /* imgres-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0DF5FE0F1C53CF7E00DF144D /* imgres-1.jpg */; };
 		0DF5FE151C53CF7E00DF144D /* imgres-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0DF5FE101C53CF7E00DF144D /* imgres-2.jpg */; };
-		CA46AB601C5FDC3A00049C4F /* bacjground.png in Resources */ = {isa = PBXBuildFile; fileRef = CA46AB5E1C5FDC3A00049C4F /* bacjground.png */; };
-		CA46AB611C5FDC3A00049C4F /* knob.png in Resources */ = {isa = PBXBuildFile; fileRef = CA46AB5F1C5FDC3A00049C4F /* knob.png */; };
-		CA46AB631C5FDC7100049C4F /* rsz_bacjground.png in Resources */ = {isa = PBXBuildFile; fileRef = CA46AB621C5FDC7100049C4F /* rsz_bacjground.png */; };
 		CA46AB661C5FE03C00049C4F /* KnobViewSensor.m in Sources */ = {isa = PBXBuildFile; fileRef = CA46AB651C5FE03C00049C4F /* KnobViewSensor.m */; };
 		CA46AB691C5FE08900049C4F /* Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = CA46AB681C5FE08900049C4F /* Helper.m */; };
-		CA46AB6B1C5FF5F900049C4F /* p-k700.png in Resources */ = {isa = PBXBuildFile; fileRef = CA46AB6A1C5FF5F900049C4F /* p-k700.png */; };
 		CA8C8F821C531F0300FA7B61 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA8C8F811C531F0300FA7B61 /* main.m */; };
 		CA8C8F851C531F0400FA7B61 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA8C8F841C531F0400FA7B61 /* AppDelegate.m */; };
 		CA8C8F881C531F0400FA7B61 /* GuitarNeckView.m in Sources */ = {isa = PBXBuildFile; fileRef = CA8C8F871C531F0400FA7B61 /* GuitarNeckView.m */; };
@@ -36,12 +32,12 @@
 		CA8C8FBE1C533F1000FA7B61 /* ONBSession.m in Sources */ = {isa = PBXBuildFile; fileRef = CA8C8FBD1C533F1000FA7B61 /* ONBSession.m */; };
 		CA8C8FC31C534B4800FA7B61 /* GuitarPin_Green.png in Resources */ = {isa = PBXBuildFile; fileRef = CA8C8FC11C534B4800FA7B61 /* GuitarPin_Green.png */; };
 		CA8C8FC61C534B6300FA7B61 /* GuitarPin_Red.png in Resources */ = {isa = PBXBuildFile; fileRef = CA8C8FC51C534B6300FA7B61 /* GuitarPin_Red.png */; };
-		CA97893D1C601B5100F92DDD /* Bespoke Wood flooring Finishes 005.JPG in Resources */ = {isa = PBXBuildFile; fileRef = CA97893C1C601B5100F92DDD /* Bespoke Wood flooring Finishes 005.JPG */; };
-		CA9789471C6022ED00F92DDD /* hickory-buckingham-dark-stain-wood-floors.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CA9789461C6022ED00F92DDD /* hickory-buckingham-dark-stain-wood-floors.jpg */; };
-		CA9789491C60231E00F92DDD /* T35-stain-large.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CA9789481C60231E00F92DDD /* T35-stain-large.jpg */; };
-		CA97894D1C6028D700F92DDD /* rsz_guitar-volume--knob.png in Resources */ = {isa = PBXBuildFile; fileRef = CA97894C1C6028D700F92DDD /* rsz_guitar-volume--knob.png */; };
-		CA97894F1C60293000F92DDD /* guitar-volume--knob.png in Resources */ = {isa = PBXBuildFile; fileRef = CA97894E1C60293000F92DDD /* guitar-volume--knob.png */; };
-		CA9789511C6048E600F92DDD /* imageedit_12_4603565327.png in Resources */ = {isa = PBXBuildFile; fileRef = CA9789501C6048E600F92DDD /* imageedit_12_4603565327.png */; };
+		CA9789621C61DE9E00F92DDD /* bacjground.png in Resources */ = {isa = PBXBuildFile; fileRef = CA9789611C61DE9E00F92DDD /* bacjground.png */; };
+		CA9789641C61DF2F00F92DDD /* T35-stain-large.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CA9789631C61DF2F00F92DDD /* T35-stain-large.jpg */; };
+		CA9789681C61DF7400F92DDD /* guitar-volume--knob.png in Resources */ = {isa = PBXBuildFile; fileRef = CA9789671C61DF7400F92DDD /* guitar-volume--knob.png */; };
+		CA97896A1C61E04C00F92DDD /* hickory-buckingham-dark-stain-wood-floors.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CA9789691C61E04C00F92DDD /* hickory-buckingham-dark-stain-wood-floors.jpg */; };
+		CA97896C1C61E0EA00F92DDD /* imageedit_12_4603565327.png in Resources */ = {isa = PBXBuildFile; fileRef = CA97896B1C61E0EA00F92DDD /* imageedit_12_4603565327.png */; };
+		CA97896E1C61E10F00F92DDD /* rsz_guitar-volume--knob.png in Resources */ = {isa = PBXBuildFile; fileRef = CA97896D1C61E10F00F92DDD /* rsz_guitar-volume--knob.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,14 +69,10 @@
 		0DF5FE0E1C53CF7E00DF144D /* images.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = images.jpg; sourceTree = "<group>"; };
 		0DF5FE0F1C53CF7E00DF144D /* imgres-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "imgres-1.jpg"; sourceTree = "<group>"; };
 		0DF5FE101C53CF7E00DF144D /* imgres-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "imgres-2.jpg"; sourceTree = "<group>"; };
-		CA46AB5E1C5FDC3A00049C4F /* bacjground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bacjground.png; path = "../../../../Downloads/KnobGarageBandStyle-master/Knob/bacjground.png"; sourceTree = "<group>"; };
-		CA46AB5F1C5FDC3A00049C4F /* knob.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = knob.png; path = "../../../../Downloads/KnobGarageBandStyle-master/Knob/knob.png"; sourceTree = "<group>"; };
-		CA46AB621C5FDC7100049C4F /* rsz_bacjground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rsz_bacjground.png; path = ../../../../Downloads/rsz_bacjground.png; sourceTree = "<group>"; };
 		CA46AB641C5FE03C00049C4F /* KnobViewSensor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KnobViewSensor.h; sourceTree = SOURCE_ROOT; };
 		CA46AB651C5FE03C00049C4F /* KnobViewSensor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KnobViewSensor.m; sourceTree = SOURCE_ROOT; };
 		CA46AB671C5FE08900049C4F /* Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Helper.h; sourceTree = "<group>"; };
 		CA46AB681C5FE08900049C4F /* Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Helper.m; sourceTree = "<group>"; };
-		CA46AB6A1C5FF5F900049C4F /* p-k700.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "p-k700.png"; path = "../../../ONB/p-k700.png"; sourceTree = "<group>"; };
 		CA8C8F7D1C531F0300FA7B61 /* BandThing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BandThing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA8C8F811C531F0300FA7B61 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CA8C8F831C531F0400FA7B61 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -104,12 +96,12 @@
 		CA8C8FBD1C533F1000FA7B61 /* ONBSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ONBSession.m; sourceTree = "<group>"; };
 		CA8C8FC11C534B4800FA7B61 /* GuitarPin_Green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GuitarPin_Green.png; sourceTree = "<group>"; };
 		CA8C8FC51C534B6300FA7B61 /* GuitarPin_Red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GuitarPin_Red.png; sourceTree = "<group>"; };
-		CA97893C1C601B5100F92DDD /* Bespoke Wood flooring Finishes 005.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Bespoke Wood flooring Finishes 005.JPG"; path = "../../../Bespoke Wood flooring Finishes 005.JPG"; sourceTree = "<group>"; };
-		CA9789461C6022ED00F92DDD /* hickory-buckingham-dark-stain-wood-floors.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "hickory-buckingham-dark-stain-wood-floors.jpg"; path = "../../../hickory-buckingham-dark-stain-wood-floors.jpg"; sourceTree = "<group>"; };
-		CA9789481C60231E00F92DDD /* T35-stain-large.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "T35-stain-large.jpg"; path = "../../../T35-stain-large.jpg"; sourceTree = "<group>"; };
-		CA97894C1C6028D700F92DDD /* rsz_guitar-volume--knob.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "rsz_guitar-volume--knob.png"; path = "../../../../Downloads/rsz_guitar-volume--knob.png"; sourceTree = "<group>"; };
-		CA97894E1C60293000F92DDD /* guitar-volume--knob.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "guitar-volume--knob.png"; path = "../../../guitar-volume--knob.png"; sourceTree = "<group>"; };
-		CA9789501C6048E600F92DDD /* imageedit_12_4603565327.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = imageedit_12_4603565327.png; path = ../../../../Downloads/imageedit_12_4603565327.png; sourceTree = "<group>"; };
+		CA9789611C61DE9E00F92DDD /* bacjground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bacjground.png; path = ../../.Trash/bacjground.png; sourceTree = "<group>"; };
+		CA9789631C61DF2F00F92DDD /* T35-stain-large.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "T35-stain-large.jpg"; path = "../../Desktop/T35-stain-large.jpg"; sourceTree = "<group>"; };
+		CA9789671C61DF7400F92DDD /* guitar-volume--knob.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "guitar-volume--knob.png"; path = "../../Desktop/guitar-volume--knob.png"; sourceTree = "<group>"; };
+		CA9789691C61E04C00F92DDD /* hickory-buckingham-dark-stain-wood-floors.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "hickory-buckingham-dark-stain-wood-floors.jpg"; path = "../../Desktop/hickory-buckingham-dark-stain-wood-floors.jpg"; sourceTree = "<group>"; };
+		CA97896B1C61E0EA00F92DDD /* imageedit_12_4603565327.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = imageedit_12_4603565327.png; path = ../../Downloads/imageedit_12_4603565327.png; sourceTree = "<group>"; };
+		CA97896D1C61E10F00F92DDD /* rsz_guitar-volume--knob.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "rsz_guitar-volume--knob.png"; path = "../../Downloads/rsz_guitar-volume--knob.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -221,16 +213,12 @@
 		CA8C8FB61C53231B00FA7B61 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				CA9789501C6048E600F92DDD /* imageedit_12_4603565327.png */,
-				CA97894E1C60293000F92DDD /* guitar-volume--knob.png */,
-				CA97894C1C6028D700F92DDD /* rsz_guitar-volume--knob.png */,
-				CA9789481C60231E00F92DDD /* T35-stain-large.jpg */,
-				CA9789461C6022ED00F92DDD /* hickory-buckingham-dark-stain-wood-floors.jpg */,
-				CA97893C1C601B5100F92DDD /* Bespoke Wood flooring Finishes 005.JPG */,
-				CA46AB621C5FDC7100049C4F /* rsz_bacjground.png */,
-				CA46AB5E1C5FDC3A00049C4F /* bacjground.png */,
-				CA46AB6A1C5FF5F900049C4F /* p-k700.png */,
-				CA46AB5F1C5FDC3A00049C4F /* knob.png */,
+				CA9789611C61DE9E00F92DDD /* bacjground.png */,
+				CA9789631C61DF2F00F92DDD /* T35-stain-large.jpg */,
+				CA9789671C61DF7400F92DDD /* guitar-volume--knob.png */,
+				CA9789691C61E04C00F92DDD /* hickory-buckingham-dark-stain-wood-floors.jpg */,
+				CA97896B1C61E0EA00F92DDD /* imageedit_12_4603565327.png */,
+				CA97896D1C61E10F00F92DDD /* rsz_guitar-volume--knob.png */,
 				CA8C8FC11C534B4800FA7B61 /* GuitarPin_Green.png */,
 				CA8C8FC51C534B6300FA7B61 /* GuitarPin_Red.png */,
 				CA8C8FB31C531F7100FA7B61 /* GuitarNeck.jpg */,
@@ -351,31 +339,27 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA9789471C6022ED00F92DDD /* hickory-buckingham-dark-stain-wood-floors.jpg in Resources */,
-				CA46AB601C5FDC3A00049C4F /* bacjground.png in Resources */,
-				CA46AB611C5FDC3A00049C4F /* knob.png in Resources */,
-				CA46AB631C5FDC7100049C4F /* rsz_bacjground.png in Resources */,
+				CA97896A1C61E04C00F92DDD /* hickory-buckingham-dark-stain-wood-floors.jpg in Resources */,
+				CA9789621C61DE9E00F92DDD /* bacjground.png in Resources */,
+				CA9789681C61DF7400F92DDD /* guitar-volume--knob.png in Resources */,
+				CA97896C1C61E0EA00F92DDD /* imageedit_12_4603565327.png in Resources */,
+				CA9789641C61DF2F00F92DDD /* T35-stain-large.jpg in Resources */,
 				CA8C8F901C531F0400FA7B61 /* LaunchScreen.storyboard in Resources */,
 				0DF5FE121C53CF7E00DF144D /* images-2.jpg in Resources */,
 				0DF5FDFB1C537F5300DF144D /* Thomasface@2x.png in Resources */,
 				CA8C8FC31C534B4800FA7B61 /* GuitarPin_Green.png in Resources */,
+				CA97896E1C61E10F00F92DDD /* rsz_guitar-volume--knob.png in Resources */,
 				0DF5FE041C53939300DF144D /* rsz_1thomas.jpg in Resources */,
-				CA9789491C60231E00F92DDD /* T35-stain-large.jpg in Resources */,
-				CA9789511C6048E600F92DDD /* imageedit_12_4603565327.png in Resources */,
-				CA97893D1C601B5100F92DDD /* Bespoke Wood flooring Finishes 005.JPG in Resources */,
 				CA8C8F8D1C531F0400FA7B61 /* Assets.xcassets in Resources */,
 				0DF5FE021C53888500DF144D /* abstrack-abstract-gaussian-blur-color-spectrum-x-wallpaper-abstract-photo-blurred-colors-hd-wallpaper.jpg in Resources */,
 				0DF5FDFA1C537F5300DF144D /* Thomasface.png in Resources */,
 				0DF5FE141C53CF7E00DF144D /* imgres-1.jpg in Resources */,
 				0DF5FE151C53CF7E00DF144D /* imgres-2.jpg in Resources */,
 				0DF5FE111C53CF7E00DF144D /* images-1.jpg in Resources */,
-				CA97894D1C6028D700F92DDD /* rsz_guitar-volume--knob.png in Resources */,
 				CA8C8FC61C534B6300FA7B61 /* GuitarPin_Red.png in Resources */,
-				CA46AB6B1C5FF5F900049C4F /* p-k700.png in Resources */,
 				CA8C8FB41C531F7100FA7B61 /* GuitarNeck.jpg in Resources */,
 				CA8C8F8B1C531F0400FA7B61 /* Main.storyboard in Resources */,
 				0DF5FE131C53CF7E00DF144D /* images.jpg in Resources */,
-				CA97894F1C60293000F92DDD /* guitar-volume--knob.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
