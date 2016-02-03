@@ -1,0 +1,667 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0DF5FDFA1C537F5300DF144D /* Thomasface.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DF5FDF81C537F5300DF144D /* Thomasface.png */; };
+		0DF5FDFB1C537F5300DF144D /* Thomasface@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DF5FDF91C537F5300DF144D /* Thomasface@2x.png */; };
+		0DF5FDFE1C53819A00DF144D /* ArtistPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DF5FDFD1C53819A00DF144D /* ArtistPage.m */; };
+		0DF5FE021C53888500DF144D /* abstrack-abstract-gaussian-blur-color-spectrum-x-wallpaper-abstract-photo-blurred-colors-hd-wallpaper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0DF5FE011C53888500DF144D /* abstrack-abstract-gaussian-blur-color-spectrum-x-wallpaper-abstract-photo-blurred-colors-hd-wallpaper.jpg */; };
+		0DF5FE041C53939300DF144D /* rsz_1thomas.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0DF5FE031C53939300DF144D /* rsz_1thomas.jpg */; };
+		0DF5FE111C53CF7E00DF144D /* images-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0DF5FE0C1C53CF7E00DF144D /* images-1.jpg */; };
+		0DF5FE121C53CF7E00DF144D /* images-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0DF5FE0D1C53CF7E00DF144D /* images-2.jpg */; };
+		0DF5FE131C53CF7E00DF144D /* images.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0DF5FE0E1C53CF7E00DF144D /* images.jpg */; };
+		0DF5FE141C53CF7E00DF144D /* imgres-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0DF5FE0F1C53CF7E00DF144D /* imgres-1.jpg */; };
+		0DF5FE151C53CF7E00DF144D /* imgres-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0DF5FE101C53CF7E00DF144D /* imgres-2.jpg */; };
+		CA46AB601C5FDC3A00049C4F /* bacjground.png in Resources */ = {isa = PBXBuildFile; fileRef = CA46AB5E1C5FDC3A00049C4F /* bacjground.png */; };
+		CA46AB611C5FDC3A00049C4F /* knob.png in Resources */ = {isa = PBXBuildFile; fileRef = CA46AB5F1C5FDC3A00049C4F /* knob.png */; };
+		CA46AB631C5FDC7100049C4F /* rsz_bacjground.png in Resources */ = {isa = PBXBuildFile; fileRef = CA46AB621C5FDC7100049C4F /* rsz_bacjground.png */; };
+		CA46AB661C5FE03C00049C4F /* KnobViewSensor.m in Sources */ = {isa = PBXBuildFile; fileRef = CA46AB651C5FE03C00049C4F /* KnobViewSensor.m */; };
+		CA46AB691C5FE08900049C4F /* Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = CA46AB681C5FE08900049C4F /* Helper.m */; };
+		CA46AB6B1C5FF5F900049C4F /* p-k700.png in Resources */ = {isa = PBXBuildFile; fileRef = CA46AB6A1C5FF5F900049C4F /* p-k700.png */; };
+		CA8C8F821C531F0300FA7B61 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA8C8F811C531F0300FA7B61 /* main.m */; };
+		CA8C8F851C531F0400FA7B61 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA8C8F841C531F0400FA7B61 /* AppDelegate.m */; };
+		CA8C8F881C531F0400FA7B61 /* GuitarNeckView.m in Sources */ = {isa = PBXBuildFile; fileRef = CA8C8F871C531F0400FA7B61 /* GuitarNeckView.m */; };
+		CA8C8F8B1C531F0400FA7B61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA8C8F891C531F0400FA7B61 /* Main.storyboard */; };
+		CA8C8F8D1C531F0400FA7B61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA8C8F8C1C531F0400FA7B61 /* Assets.xcassets */; };
+		CA8C8F901C531F0400FA7B61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA8C8F8E1C531F0400FA7B61 /* LaunchScreen.storyboard */; };
+		CA8C8F9B1C531F0500FA7B61 /* BandThingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA8C8F9A1C531F0500FA7B61 /* BandThingTests.m */; };
+		CA8C8FA61C531F0500FA7B61 /* BandThingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA8C8FA51C531F0500FA7B61 /* BandThingUITests.m */; };
+		CA8C8FB41C531F7100FA7B61 /* GuitarNeck.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CA8C8FB31C531F7100FA7B61 /* GuitarNeck.jpg */; };
+		CA8C8FBB1C5323AD00FA7B61 /* ONBGuitarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CA8C8FBA1C5323AD00FA7B61 /* ONBGuitarButton.m */; };
+		CA8C8FBE1C533F1000FA7B61 /* ONBSession.m in Sources */ = {isa = PBXBuildFile; fileRef = CA8C8FBD1C533F1000FA7B61 /* ONBSession.m */; };
+		CA8C8FC31C534B4800FA7B61 /* GuitarPin_Green.png in Resources */ = {isa = PBXBuildFile; fileRef = CA8C8FC11C534B4800FA7B61 /* GuitarPin_Green.png */; };
+		CA8C8FC61C534B6300FA7B61 /* GuitarPin_Red.png in Resources */ = {isa = PBXBuildFile; fileRef = CA8C8FC51C534B6300FA7B61 /* GuitarPin_Red.png */; };
+		CA97893D1C601B5100F92DDD /* Bespoke Wood flooring Finishes 005.JPG in Resources */ = {isa = PBXBuildFile; fileRef = CA97893C1C601B5100F92DDD /* Bespoke Wood flooring Finishes 005.JPG */; };
+		CA9789471C6022ED00F92DDD /* hickory-buckingham-dark-stain-wood-floors.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CA9789461C6022ED00F92DDD /* hickory-buckingham-dark-stain-wood-floors.jpg */; };
+		CA9789491C60231E00F92DDD /* T35-stain-large.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CA9789481C60231E00F92DDD /* T35-stain-large.jpg */; };
+		CA97894D1C6028D700F92DDD /* rsz_guitar-volume--knob.png in Resources */ = {isa = PBXBuildFile; fileRef = CA97894C1C6028D700F92DDD /* rsz_guitar-volume--knob.png */; };
+		CA97894F1C60293000F92DDD /* guitar-volume--knob.png in Resources */ = {isa = PBXBuildFile; fileRef = CA97894E1C60293000F92DDD /* guitar-volume--knob.png */; };
+		CA9789511C6048E600F92DDD /* imageedit_12_4603565327.png in Resources */ = {isa = PBXBuildFile; fileRef = CA9789501C6048E600F92DDD /* imageedit_12_4603565327.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CA8C8F971C531F0500FA7B61 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA8C8F751C531F0300FA7B61 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA8C8F7C1C531F0300FA7B61;
+			remoteInfo = BandThing;
+		};
+		CA8C8FA21C531F0500FA7B61 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA8C8F751C531F0300FA7B61 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA8C8F7C1C531F0300FA7B61;
+			remoteInfo = BandThing;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0DF5FDF81C537F5300DF144D /* Thomasface.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Thomasface.png; sourceTree = "<group>"; };
+		0DF5FDF91C537F5300DF144D /* Thomasface@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Thomasface@2x.png"; sourceTree = "<group>"; };
+		0DF5FDFC1C53819A00DF144D /* ArtistPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ArtistPage.h; path = ../ArtistPage.h; sourceTree = "<group>"; };
+		0DF5FDFD1C53819A00DF144D /* ArtistPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ArtistPage.m; path = ../ArtistPage.m; sourceTree = "<group>"; };
+		0DF5FE011C53888500DF144D /* abstrack-abstract-gaussian-blur-color-spectrum-x-wallpaper-abstract-photo-blurred-colors-hd-wallpaper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "abstrack-abstract-gaussian-blur-color-spectrum-x-wallpaper-abstract-photo-blurred-colors-hd-wallpaper.jpg"; sourceTree = "<group>"; };
+		0DF5FE031C53939300DF144D /* rsz_1thomas.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rsz_1thomas.jpg; sourceTree = "<group>"; };
+		0DF5FE0C1C53CF7E00DF144D /* images-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "images-1.jpg"; sourceTree = "<group>"; };
+		0DF5FE0D1C53CF7E00DF144D /* images-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "images-2.jpg"; sourceTree = "<group>"; };
+		0DF5FE0E1C53CF7E00DF144D /* images.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = images.jpg; sourceTree = "<group>"; };
+		0DF5FE0F1C53CF7E00DF144D /* imgres-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "imgres-1.jpg"; sourceTree = "<group>"; };
+		0DF5FE101C53CF7E00DF144D /* imgres-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "imgres-2.jpg"; sourceTree = "<group>"; };
+		CA46AB5E1C5FDC3A00049C4F /* bacjground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bacjground.png; path = "../../../../Downloads/KnobGarageBandStyle-master/Knob/bacjground.png"; sourceTree = "<group>"; };
+		CA46AB5F1C5FDC3A00049C4F /* knob.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = knob.png; path = "../../../../Downloads/KnobGarageBandStyle-master/Knob/knob.png"; sourceTree = "<group>"; };
+		CA46AB621C5FDC7100049C4F /* rsz_bacjground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rsz_bacjground.png; path = ../../../../Downloads/rsz_bacjground.png; sourceTree = "<group>"; };
+		CA46AB641C5FE03C00049C4F /* KnobViewSensor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KnobViewSensor.h; sourceTree = SOURCE_ROOT; };
+		CA46AB651C5FE03C00049C4F /* KnobViewSensor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KnobViewSensor.m; sourceTree = SOURCE_ROOT; };
+		CA46AB671C5FE08900049C4F /* Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Helper.h; sourceTree = "<group>"; };
+		CA46AB681C5FE08900049C4F /* Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Helper.m; sourceTree = "<group>"; };
+		CA46AB6A1C5FF5F900049C4F /* p-k700.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "p-k700.png"; path = "../../../ONB/p-k700.png"; sourceTree = "<group>"; };
+		CA8C8F7D1C531F0300FA7B61 /* BandThing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BandThing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA8C8F811C531F0300FA7B61 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CA8C8F831C531F0400FA7B61 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CA8C8F841C531F0400FA7B61 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CA8C8F861C531F0400FA7B61 /* GuitarNeckView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GuitarNeckView.h; sourceTree = "<group>"; };
+		CA8C8F871C531F0400FA7B61 /* GuitarNeckView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GuitarNeckView.m; sourceTree = "<group>"; };
+		CA8C8F8A1C531F0400FA7B61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CA8C8F8C1C531F0400FA7B61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA8C8F8F1C531F0400FA7B61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CA8C8F911C531F0500FA7B61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA8C8F961C531F0500FA7B61 /* BandThingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BandThingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA8C8F9A1C531F0500FA7B61 /* BandThingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BandThingTests.m; sourceTree = "<group>"; };
+		CA8C8F9C1C531F0500FA7B61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA8C8FA11C531F0500FA7B61 /* BandThingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BandThingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA8C8FA51C531F0500FA7B61 /* BandThingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BandThingUITests.m; sourceTree = "<group>"; };
+		CA8C8FA71C531F0500FA7B61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA8C8FB31C531F7100FA7B61 /* GuitarNeck.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = GuitarNeck.jpg; sourceTree = "<group>"; };
+		CA8C8FB91C5323AD00FA7B61 /* ONBGuitarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ONBGuitarButton.h; sourceTree = "<group>"; };
+		CA8C8FBA1C5323AD00FA7B61 /* ONBGuitarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ONBGuitarButton.m; sourceTree = "<group>"; };
+		CA8C8FBC1C533F1000FA7B61 /* ONBSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ONBSession.h; sourceTree = "<group>"; };
+		CA8C8FBD1C533F1000FA7B61 /* ONBSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ONBSession.m; sourceTree = "<group>"; };
+		CA8C8FC11C534B4800FA7B61 /* GuitarPin_Green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GuitarPin_Green.png; sourceTree = "<group>"; };
+		CA8C8FC51C534B6300FA7B61 /* GuitarPin_Red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GuitarPin_Red.png; sourceTree = "<group>"; };
+		CA97893C1C601B5100F92DDD /* Bespoke Wood flooring Finishes 005.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Bespoke Wood flooring Finishes 005.JPG"; path = "../../../Bespoke Wood flooring Finishes 005.JPG"; sourceTree = "<group>"; };
+		CA9789461C6022ED00F92DDD /* hickory-buckingham-dark-stain-wood-floors.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "hickory-buckingham-dark-stain-wood-floors.jpg"; path = "../../../hickory-buckingham-dark-stain-wood-floors.jpg"; sourceTree = "<group>"; };
+		CA9789481C60231E00F92DDD /* T35-stain-large.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "T35-stain-large.jpg"; path = "../../../T35-stain-large.jpg"; sourceTree = "<group>"; };
+		CA97894C1C6028D700F92DDD /* rsz_guitar-volume--knob.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "rsz_guitar-volume--knob.png"; path = "../../../../Downloads/rsz_guitar-volume--knob.png"; sourceTree = "<group>"; };
+		CA97894E1C60293000F92DDD /* guitar-volume--knob.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "guitar-volume--knob.png"; path = "../../../guitar-volume--knob.png"; sourceTree = "<group>"; };
+		CA9789501C6048E600F92DDD /* imageedit_12_4603565327.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = imageedit_12_4603565327.png; path = ../../../../Downloads/imageedit_12_4603565327.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA8C8F7A1C531F0300FA7B61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA8C8F931C531F0500FA7B61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA8C8F9E1C531F0500FA7B61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA8C8F741C531F0300FA7B61 = {
+			isa = PBXGroup;
+			children = (
+				CA8C8F7F1C531F0300FA7B61 /* BandThing */,
+				CA8C8F991C531F0500FA7B61 /* BandThingTests */,
+				CA8C8FA41C531F0500FA7B61 /* BandThingUITests */,
+				CA8C8F7E1C531F0300FA7B61 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA8C8F7E1C531F0300FA7B61 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA8C8F7D1C531F0300FA7B61 /* BandThing.app */,
+				CA8C8F961C531F0500FA7B61 /* BandThingTests.xctest */,
+				CA8C8FA11C531F0500FA7B61 /* BandThingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA8C8F7F1C531F0300FA7B61 /* BandThing */ = {
+			isa = PBXGroup;
+			children = (
+				CA8C8FB51C53231300FA7B61 /* Button */,
+				CA8C8F831C531F0400FA7B61 /* AppDelegate.h */,
+				CA8C8F841C531F0400FA7B61 /* AppDelegate.m */,
+				0DF5FDFC1C53819A00DF144D /* ArtistPage.h */,
+				0DF5FDFD1C53819A00DF144D /* ArtistPage.m */,
+				CA46AB641C5FE03C00049C4F /* KnobViewSensor.h */,
+				CA46AB651C5FE03C00049C4F /* KnobViewSensor.m */,
+				CA46AB671C5FE08900049C4F /* Helper.h */,
+				CA46AB681C5FE08900049C4F /* Helper.m */,
+				CA8C8FBC1C533F1000FA7B61 /* ONBSession.h */,
+				CA8C8FBD1C533F1000FA7B61 /* ONBSession.m */,
+				CA8C8F861C531F0400FA7B61 /* GuitarNeckView.h */,
+				CA8C8F871C531F0400FA7B61 /* GuitarNeckView.m */,
+				CA8C8F891C531F0400FA7B61 /* Main.storyboard */,
+				CA8C8F8C1C531F0400FA7B61 /* Assets.xcassets */,
+				CA8C8F8E1C531F0400FA7B61 /* LaunchScreen.storyboard */,
+				CA8C8F911C531F0500FA7B61 /* Info.plist */,
+				CA8C8FB61C53231B00FA7B61 /* Images */,
+				CA8C8F801C531F0300FA7B61 /* Supporting Files */,
+			);
+			path = BandThing;
+			sourceTree = "<group>";
+		};
+		CA8C8F801C531F0300FA7B61 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA8C8F811C531F0300FA7B61 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CA8C8F991C531F0500FA7B61 /* BandThingTests */ = {
+			isa = PBXGroup;
+			children = (
+				CA8C8F9A1C531F0500FA7B61 /* BandThingTests.m */,
+				CA8C8F9C1C531F0500FA7B61 /* Info.plist */,
+			);
+			path = BandThingTests;
+			sourceTree = "<group>";
+		};
+		CA8C8FA41C531F0500FA7B61 /* BandThingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CA8C8FA51C531F0500FA7B61 /* BandThingUITests.m */,
+				CA8C8FA71C531F0500FA7B61 /* Info.plist */,
+			);
+			path = BandThingUITests;
+			sourceTree = "<group>";
+		};
+		CA8C8FB51C53231300FA7B61 /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				CA8C8FB91C5323AD00FA7B61 /* ONBGuitarButton.h */,
+				CA8C8FBA1C5323AD00FA7B61 /* ONBGuitarButton.m */,
+			);
+			name = Button;
+			sourceTree = "<group>";
+		};
+		CA8C8FB61C53231B00FA7B61 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				CA9789501C6048E600F92DDD /* imageedit_12_4603565327.png */,
+				CA97894E1C60293000F92DDD /* guitar-volume--knob.png */,
+				CA97894C1C6028D700F92DDD /* rsz_guitar-volume--knob.png */,
+				CA9789481C60231E00F92DDD /* T35-stain-large.jpg */,
+				CA9789461C6022ED00F92DDD /* hickory-buckingham-dark-stain-wood-floors.jpg */,
+				CA97893C1C601B5100F92DDD /* Bespoke Wood flooring Finishes 005.JPG */,
+				CA46AB621C5FDC7100049C4F /* rsz_bacjground.png */,
+				CA46AB5E1C5FDC3A00049C4F /* bacjground.png */,
+				CA46AB6A1C5FF5F900049C4F /* p-k700.png */,
+				CA46AB5F1C5FDC3A00049C4F /* knob.png */,
+				CA8C8FC11C534B4800FA7B61 /* GuitarPin_Green.png */,
+				CA8C8FC51C534B6300FA7B61 /* GuitarPin_Red.png */,
+				CA8C8FB31C531F7100FA7B61 /* GuitarNeck.jpg */,
+				0DF5FDF81C537F5300DF144D /* Thomasface.png */,
+				0DF5FDF91C537F5300DF144D /* Thomasface@2x.png */,
+				0DF5FE011C53888500DF144D /* abstrack-abstract-gaussian-blur-color-spectrum-x-wallpaper-abstract-photo-blurred-colors-hd-wallpaper.jpg */,
+				0DF5FE031C53939300DF144D /* rsz_1thomas.jpg */,
+				0DF5FE0C1C53CF7E00DF144D /* images-1.jpg */,
+				0DF5FE0D1C53CF7E00DF144D /* images-2.jpg */,
+				0DF5FE0E1C53CF7E00DF144D /* images.jpg */,
+				0DF5FE0F1C53CF7E00DF144D /* imgres-1.jpg */,
+				0DF5FE101C53CF7E00DF144D /* imgres-2.jpg */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA8C8F7C1C531F0300FA7B61 /* BandThing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA8C8FAA1C531F0500FA7B61 /* Build configuration list for PBXNativeTarget "BandThing" */;
+			buildPhases = (
+				CA8C8F791C531F0300FA7B61 /* Sources */,
+				CA8C8F7A1C531F0300FA7B61 /* Frameworks */,
+				CA8C8F7B1C531F0300FA7B61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BandThing;
+			productName = BandThing;
+			productReference = CA8C8F7D1C531F0300FA7B61 /* BandThing.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CA8C8F951C531F0500FA7B61 /* BandThingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA8C8FAD1C531F0500FA7B61 /* Build configuration list for PBXNativeTarget "BandThingTests" */;
+			buildPhases = (
+				CA8C8F921C531F0500FA7B61 /* Sources */,
+				CA8C8F931C531F0500FA7B61 /* Frameworks */,
+				CA8C8F941C531F0500FA7B61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA8C8F981C531F0500FA7B61 /* PBXTargetDependency */,
+			);
+			name = BandThingTests;
+			productName = BandThingTests;
+			productReference = CA8C8F961C531F0500FA7B61 /* BandThingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CA8C8FA01C531F0500FA7B61 /* BandThingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA8C8FB01C531F0500FA7B61 /* Build configuration list for PBXNativeTarget "BandThingUITests" */;
+			buildPhases = (
+				CA8C8F9D1C531F0500FA7B61 /* Sources */,
+				CA8C8F9E1C531F0500FA7B61 /* Frameworks */,
+				CA8C8F9F1C531F0500FA7B61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA8C8FA31C531F0500FA7B61 /* PBXTargetDependency */,
+			);
+			name = BandThingUITests;
+			productName = BandThingUITests;
+			productReference = CA8C8FA11C531F0500FA7B61 /* BandThingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA8C8F751C531F0300FA7B61 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Will Cobb";
+				TargetAttributes = {
+					CA8C8F7C1C531F0300FA7B61 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = B5ZN377EVP;
+					};
+					CA8C8F951C531F0500FA7B61 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = CA8C8F7C1C531F0300FA7B61;
+					};
+					CA8C8FA01C531F0500FA7B61 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = CA8C8F7C1C531F0300FA7B61;
+					};
+				};
+			};
+			buildConfigurationList = CA8C8F781C531F0300FA7B61 /* Build configuration list for PBXProject "BandThing" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA8C8F741C531F0300FA7B61;
+			productRefGroup = CA8C8F7E1C531F0300FA7B61 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA8C8F7C1C531F0300FA7B61 /* BandThing */,
+				CA8C8F951C531F0500FA7B61 /* BandThingTests */,
+				CA8C8FA01C531F0500FA7B61 /* BandThingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA8C8F7B1C531F0300FA7B61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA9789471C6022ED00F92DDD /* hickory-buckingham-dark-stain-wood-floors.jpg in Resources */,
+				CA46AB601C5FDC3A00049C4F /* bacjground.png in Resources */,
+				CA46AB611C5FDC3A00049C4F /* knob.png in Resources */,
+				CA46AB631C5FDC7100049C4F /* rsz_bacjground.png in Resources */,
+				CA8C8F901C531F0400FA7B61 /* LaunchScreen.storyboard in Resources */,
+				0DF5FE121C53CF7E00DF144D /* images-2.jpg in Resources */,
+				0DF5FDFB1C537F5300DF144D /* Thomasface@2x.png in Resources */,
+				CA8C8FC31C534B4800FA7B61 /* GuitarPin_Green.png in Resources */,
+				0DF5FE041C53939300DF144D /* rsz_1thomas.jpg in Resources */,
+				CA9789491C60231E00F92DDD /* T35-stain-large.jpg in Resources */,
+				CA9789511C6048E600F92DDD /* imageedit_12_4603565327.png in Resources */,
+				CA97893D1C601B5100F92DDD /* Bespoke Wood flooring Finishes 005.JPG in Resources */,
+				CA8C8F8D1C531F0400FA7B61 /* Assets.xcassets in Resources */,
+				0DF5FE021C53888500DF144D /* abstrack-abstract-gaussian-blur-color-spectrum-x-wallpaper-abstract-photo-blurred-colors-hd-wallpaper.jpg in Resources */,
+				0DF5FDFA1C537F5300DF144D /* Thomasface.png in Resources */,
+				0DF5FE141C53CF7E00DF144D /* imgres-1.jpg in Resources */,
+				0DF5FE151C53CF7E00DF144D /* imgres-2.jpg in Resources */,
+				0DF5FE111C53CF7E00DF144D /* images-1.jpg in Resources */,
+				CA97894D1C6028D700F92DDD /* rsz_guitar-volume--knob.png in Resources */,
+				CA8C8FC61C534B6300FA7B61 /* GuitarPin_Red.png in Resources */,
+				CA46AB6B1C5FF5F900049C4F /* p-k700.png in Resources */,
+				CA8C8FB41C531F7100FA7B61 /* GuitarNeck.jpg in Resources */,
+				CA8C8F8B1C531F0400FA7B61 /* Main.storyboard in Resources */,
+				0DF5FE131C53CF7E00DF144D /* images.jpg in Resources */,
+				CA97894F1C60293000F92DDD /* guitar-volume--knob.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA8C8F941C531F0500FA7B61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA8C8F9F1C531F0500FA7B61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA8C8F791C531F0300FA7B61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA8C8F881C531F0400FA7B61 /* GuitarNeckView.m in Sources */,
+				CA8C8F851C531F0400FA7B61 /* AppDelegate.m in Sources */,
+				CA46AB661C5FE03C00049C4F /* KnobViewSensor.m in Sources */,
+				CA8C8F821C531F0300FA7B61 /* main.m in Sources */,
+				CA8C8FBE1C533F1000FA7B61 /* ONBSession.m in Sources */,
+				CA8C8FBB1C5323AD00FA7B61 /* ONBGuitarButton.m in Sources */,
+				CA46AB691C5FE08900049C4F /* Helper.m in Sources */,
+				0DF5FDFE1C53819A00DF144D /* ArtistPage.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA8C8F921C531F0500FA7B61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA8C8F9B1C531F0500FA7B61 /* BandThingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA8C8F9D1C531F0500FA7B61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA8C8FA61C531F0500FA7B61 /* BandThingUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CA8C8F981C531F0500FA7B61 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA8C8F7C1C531F0300FA7B61 /* BandThing */;
+			targetProxy = CA8C8F971C531F0500FA7B61 /* PBXContainerItemProxy */;
+		};
+		CA8C8FA31C531F0500FA7B61 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA8C8F7C1C531F0300FA7B61 /* BandThing */;
+			targetProxy = CA8C8FA21C531F0500FA7B61 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CA8C8F891C531F0400FA7B61 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA8C8F8A1C531F0400FA7B61 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CA8C8F8E1C531F0400FA7B61 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA8C8F8F1C531F0400FA7B61 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA8C8FA81C531F0500FA7B61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CA8C8FA91C531F0500FA7B61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA8C8FAB1C531F0500FA7B61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = BandThing/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.WilliamCobb.BandThingg;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		CA8C8FAC1C531F0500FA7B61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = BandThing/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.WilliamCobb.BandThingg;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		CA8C8FAE1C531F0500FA7B61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BandThingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.WilliamCobb.BandThingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BandThing.app/BandThing";
+			};
+			name = Debug;
+		};
+		CA8C8FAF1C531F0500FA7B61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BandThingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.WilliamCobb.BandThingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BandThing.app/BandThing";
+			};
+			name = Release;
+		};
+		CA8C8FB11C531F0500FA7B61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BandThingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.WilliamCobb.BandThingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BandThing;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		CA8C8FB21C531F0500FA7B61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BandThingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.WilliamCobb.BandThingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BandThing;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA8C8F781C531F0300FA7B61 /* Build configuration list for PBXProject "BandThing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA8C8FA81C531F0500FA7B61 /* Debug */,
+				CA8C8FA91C531F0500FA7B61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA8C8FAA1C531F0500FA7B61 /* Build configuration list for PBXNativeTarget "BandThing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA8C8FAB1C531F0500FA7B61 /* Debug */,
+				CA8C8FAC1C531F0500FA7B61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA8C8FAD1C531F0500FA7B61 /* Build configuration list for PBXNativeTarget "BandThingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA8C8FAE1C531F0500FA7B61 /* Debug */,
+				CA8C8FAF1C531F0500FA7B61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA8C8FB01C531F0500FA7B61 /* Build configuration list for PBXNativeTarget "BandThingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA8C8FB11C531F0500FA7B61 /* Debug */,
+				CA8C8FB21C531F0500FA7B61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA8C8F751C531F0300FA7B61 /* Project object */;
+}
